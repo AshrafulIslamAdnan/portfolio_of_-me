@@ -1,0 +1,298 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #FFF8F3;
+  background-image: url("../hero-dev-portfolio-resources/images/developer.png") ,url("../hero-dev-portfolio-resources/images/header_bg.png") ;
+  background-repeat: no-repeat;
+  background-position: bottom left, bottom right;
+}
+/* navbar */
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+header{
+  background-color: #FFF8F3;
+  padding-top: 50px;
+}
+header nav{
+  width: 71%;
+  height: 4rem;
+  max-width: 1140;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  
+}
+header nav .logo{
+  font-size: 2rem;
+  font-weight:900;
+}
+
+header nav ul a{
+  text-decoration: none;
+  color: #474747;
+}
+.logo h2 em{
+  color: #FD6E0A;
+}
+
+
+.orange-button{
+  background-color: #FD6E0A;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px 35px;
+ 
+  border-radius: 5px;
+
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+ .orange-button:hover{
+   padding: 25px 40px;
+   transition: 0.4s;
+
+}
+.con:hover{
+   padding: 25px 40px;
+   transition: 0.4s;
+}
+/* navbarend */
+
+/* banner */
+.banner{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 15rem;
+  justify-content: space-between;
+  align-items: center;
+
+  
+
+}
+.banner .first_b .p1{
+  font-size: 3rem;
+  color: #474747;
+ 
+}
+.banner .first_b h1{
+  font-weight: bold;
+  font-size: 5.1rem;
+   margin-bottom: 0.5rem;
+}
+.banner .first_b .p2{
+  font-size: 1rem;
+  color: #474747;
+   margin-bottom: 1.5rem;
+}
+.banner .main{
+  width: 584px;
+  vertical-align:middle;
+}
+
+.con{
+   background-color:#FFF8F3;
+  border: 2px solid  #FD6E0A;
+  color:  #FD6E0A;
+  font-size: 1.2rem;
+  font-weight: bold;
+ padding: 15px 35px;
+  border-radius: 5px;
+  margin-left: 1.5rem;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.but{
+  display: flex;
+}
+
+/* end of header */
+
+
+.section-1{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  flex-direction: column;
+  padding:50px 130px;
+  text-align: center;
+}
+.section-2{
+  margin: 7rem 10rem;
+ background-color:#FFF8F3;
+ border-radius: 9px;
+}
+.section-1 h1{
+  padding-bottom: 1rem;
+}
+
+.sec{
+  padding-bottom: 40px;
+  color: #474747;
+}
+.card-1{
+  display: flex;
+  justify-content: space-between;
+  gap:5rem;
+  align-items: center;
+   padding-bottom: 30px;
+
+}
+.card11{
+  color: #474747;
+  font-weight: 800;
+}
+
+.card22{
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+.section-3{
+  margin: 0 18rem;
+  text-align: center;
+}
+
+.section-3 h1{
+  font-weight: 900;
+
+}
+
+/* end of 2 banner and text */
+
+/* strt of skill cards */
+.skill-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap :30px;
+  margin-bottom: 60px;
+
+}
+.card img{
+  width: 50px;
+  padding-bottom: 1.4rem;
+}
+.card h3{ 
+  padding-bottom: 1.5rem;
+  font-weight: 800;
+}
+.card p{
+  width: 13rem;
+  color: #474747;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 14rem;
+  height: 20rem;
+  padding: 10px;
+  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hudai{
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 5rem;
+}
+
+/* start of experience */
+
+.first-box{
+  margin: 0px 15rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.first-box h2{
+  font-weight: 900;
+   color: #232222;
+}
+.first-box h3{
+  font-weight: 900;
+   color: #232222;
+}
+.part1 , .part2{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  color: #474747;
+  gap:1.4rem;
+}
+.gg2{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.down-but{
+   margin: 0px auto 5rem;  
+}
+
+/* footer nia kaj shuru */
+
+footer{
+  padding: 10rem 16rem;
+  background-color:#FFF8F3;
+  display: flex;
+  gap: 3.4rem;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 2rem;
+  width: 35.5rem;
+ 
+}
+.content p{
+  color: #474747;
+}
+.content .icon-images{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
+.form input{
+  width: 27rem;
+  height: 3.5rem;
+  border: none;
+  padding-left: 10px;
+}
+.big{
+  height: 11rem;
+  text-align: start;
+  border: none;
+  outline: none;
+   padding-left: 10px;
+}
